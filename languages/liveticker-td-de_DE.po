@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Liveticker v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-20 07:54:09+0000\n"
+"Last-Translator: admin <t.herzog@inpsyde.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/ajax-load-new-ticks.php:14
+#@ liveticker-td
+msgid "You are not doing ajax here!"
+msgstr ""
+
+#: inc/options-page.php:11
+#: inc/options-page.php:18
+#@ default
+msgid "Settings"
+msgstr ""
+
+#: inc/options-page.php:24
+#: inc/template-page.php:23
+#@ default
+msgid "Settings saved."
+msgstr ""
+
+#: inc/options-page.php:35
+#: inc/template-page.php:34
+#@ liveticker-td
+msgid "Help"
+msgstr ""
+
+#: inc/options-page.php:37
+#: inc/template-page.php:36
+#@ liveticker-td
+msgid "The usage of the ticker is really simple. It comes with a so called <a href=\"http://codex.wordpress.org/Shortcode\">shortcode</a> namend <em>ticker</em>. So here are the steps to create a ticker:"
+msgstr ""
+
+#: inc/options-page.php:39
+#: inc/template-page.php:38
+#@ liveticker-td
+msgid "Initiate a <em>Ticker</em> by using the same called menu entry."
+msgstr ""
+
+#: inc/options-page.php:40
+#: inc/template-page.php:39
+#@ liveticker-td
+msgid "Now create an initial Ticker Post and allocate it to the initiated Ticker. It works like the well known categories in the posts."
+msgstr ""
+
+#: inc/options-page.php:41
+#: inc/template-page.php:40
+#@ liveticker-td
+msgid "Publish the Ticker Post."
+msgstr ""
+
+#: inc/options-page.php:42
+#: inc/template-page.php:41
+#@ liveticker-td
+msgid "Go to a post or a page where you want to place the Ticker. Place the shortcode <em>[ticker slug]</em> in the text."
+msgstr ""
+
+#: inc/options-page.php:43
+#: inc/template-page.php:42
+#@ liveticker-td
+msgid "Replace the word <em>slug</em> with the actual slug from the initiated Ticker you created in step one."
+msgstr ""
+
+#: inc/options-page.php:44
+#: inc/template-page.php:43
+#@ liveticker-td
+msgid "Save the post."
+msgstr ""
+
+#: inc/options-page.php:45
+#: inc/template-page.php:44
+#@ liveticker-td
+msgid "Ready! Now you can create Ticker Posts just by clicking <em>Add New</em> in the <em>Ticker Post</em>-Section and your visitors can see your ... erm ... tickles!"
+msgstr ""
+
+#: inc/options-page.php:47
+#: inc/template-page.php:46
+#@ liveticker-td
+msgid "With Liveticker you can initiate unlimited Ticker on your Posts - not in a single post, but in different posts."
+msgstr ""
+
+#: inc/options-page.php:48
+#: inc/template-page.php:47
+#@ liveticker-td
+msgid "If you need more help, contact me:"
+msgstr ""
+
+#: inc/options-page.php:52
+#: inc/template-page.php:51
+#@ liveticker-td
+msgid "Powered by"
+msgstr ""
+
+#: inc/options-page.php:55
+#: inc/template-page.php:54
+#@ liveticker-td
+msgid "This plugin is powered by Inpsyde.com - Your expert for WordPress, BuddyPress and bbPress."
+msgstr ""
+
+#: inc/options-page.php:70
+#@ liveticker-td
+msgid "Refresh-Interval"
+msgstr ""
+
+#: inc/options-page.php:74
+#@ liveticker-td
+msgid "The Ticker-Box refreshs automatically. For that, we need an interval setted here. The value have to be set in milliseconds (Wished seconds x 100)."
+msgstr ""
+
+#: inc/options-page.php:80
+#: inc/template-page.php:120
+#@ default
+msgid "Save Changes"
+msgstr ""
+
+#: inc/register-post-type.php:12
+#@ liveticker-td
+msgid "Ticks"
+msgstr ""
+
+#: inc/register-post-type.php:13
+#@ liveticker-td
+msgid "Add Tick"
+msgstr ""
+
+#: inc/register-post-type.php:14
+#@ liveticker-td
+msgid "New Tick"
+msgstr ""
+
+#: inc/register-post-type.php:15
+#@ liveticker-td
+msgid "All Ticks"
+msgstr ""
+
+#: inc/register-post-type.php:16
+#@ liveticker-td
+msgid "Edit Tick"
+msgstr ""
+
+#: inc/register-post-type.php:17
+#@ liveticker-td
+msgid "View Ticks"
+msgstr ""
+
+#: inc/register-post-type.php:18
+#@ liveticker-td
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/register-post-type.php:19
+#@ liveticker-td
+msgid "Liveticker"
+msgstr ""
+
+#: inc/register-post-type.php:20
+#@ liveticker-td
+msgid "Add New Tick"
+msgstr ""
+
+#: inc/register-post-type.php:21
+#@ liveticker-td
+msgid "Search Ticks"
+msgstr ""
+
+#: inc/register-post-type.php:22
+#@ liveticker-td
+msgid "Tick"
+msgstr ""
+
+#: inc/register-post-type.php:23
+#@ liveticker-td
+msgid "Parent Tick:"
+msgstr ""
+
+#: inc/register-post-type.php:24
+#@ liveticker-td
+msgid "Nothing Found in Trash"
+msgstr ""
+
+#: inc/register-taxonomy.php:13
+#: inc/register-taxonomy.php:14
+#: inc/ticks-columns.php:13
+#@ liveticker-td
+msgid "Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:15
+#@ liveticker-td
+msgid "Add New Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:16
+#@ liveticker-td
+msgid "Edit TIcker"
+msgstr ""
+
+#: inc/register-taxonomy.php:17
+#@ liveticker-td
+msgid "All Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:18
+#@ liveticker-td
+msgid "Search Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:19
+#@ liveticker-td
+msgid "Parent Ticker:"
+msgstr ""
+
+#: inc/register-taxonomy.php:20
+#@ liveticker-td
+msgid "Add Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:21
+#@ liveticker-td
+msgid "Popular Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:22
+#@ liveticker-td
+msgid "Parent Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:23
+#@ liveticker-td
+msgid "Update Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:24
+#@ liveticker-td
+msgid "New Ticker Name"
+msgstr ""
+
+#: inc/register-taxonomy.php:25
+#@ liveticker-td
+msgid "Separate Ticker with commas"
+msgstr ""
+
+#: inc/register-taxonomy.php:26
+#@ liveticker-td
+msgid "Add or Remove Ticker"
+msgstr ""
+
+#: inc/register-taxonomy.php:27
+#@ liveticker-td
+msgid "Choose from most used"
+msgstr ""
+
+#: inc/template-page.php:11
+#: inc/template-page.php:17
+#@ liveticker-td
+msgid "Template"
+msgstr ""
+
+#: inc/template-page.php:69
+#@ liveticker-td
+msgid "Ticker-CSS"
+msgstr ""
+
+#: inc/template-page.php:72
+#@ liveticker-td
+msgid "This style defines the main area of a live ticker."
+msgstr ""
+
+#: inc/template-page.php:76
+#@ liveticker-td
+msgid "Single-Tick-CSS"
+msgstr ""
+
+#: inc/template-page.php:79
+#@ liveticker-td
+msgid "This style defines single ticker post wrapper."
+msgstr ""
+
+#: inc/template-page.php:83
+#@ liveticker-td
+msgid "Single-Tick-CSS Last Element"
+msgstr ""
+
+#: inc/template-page.php:86
+#@ liveticker-td
+msgid "This style defines last single ticker post wrapper."
+msgstr ""
+
+#: inc/template-page.php:90
+#@ liveticker-td
+msgid "Headline-CSS"
+msgstr ""
+
+#: inc/template-page.php:93
+#@ liveticker-td
+msgid "Style the headline of each ticker post with this setting."
+msgstr ""
+
+#: inc/template-page.php:97
+#@ liveticker-td
+msgid "P-Tag-CSS"
+msgstr ""
+
+#: inc/template-page.php:100
+#@ liveticker-td
+msgid "Every text is inside of a p-html-tag. You can style it with this setting."
+msgstr ""
+
+#: inc/template-page.php:104
+#@ liveticker-td
+msgid "Image-CSS"
+msgstr ""
+
+#: inc/template-page.php:107
+#@ liveticker-td
+msgid "This style setting is able to style all the incoming images."
+msgstr ""
+
+#: inc/template-page.php:111
+#@ liveticker-td
+msgid "RSS Button"
+msgstr ""
+
+#: inc/template-page.php:114
+#@ liveticker-td
+msgid "This style allowes you to set the position of the RSS-Button."
+msgstr ""
+
+#: inc/widget.php:26
+#@ liveticker-td
+msgid "This widget displays a Liveticker in your sidebar."
+msgstr ""
+
+#: inc/widget.php:94
+#@ default
+msgid "Title"
+msgstr ""
+
+#: inc/widget.php:100
+#@ liveticker-td
+msgid "Choose Ticker:"
+msgstr ""
+
